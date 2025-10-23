@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Lập trình hướng đối tượng trong Java | Khánh Vũ - Blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="🧠 Giới thiệu
+Một trong những điểm mạnh nhất của Java là khả năng hỗ trợ lập trình hướng đối tượng (OOP – Object Oriented Programming).
+Lập trình hướng đối tượng giúp mã nguồn dễ mở rộng, tái sử dụng và bảo trì hơn bằng cách mô hình hóa các đối tượng trong thế giới thực.
+OOP trong Java bao gồm 4 nguyên lý chính:
+
+Đóng gói (Encapsulation)
+Kế thừa (Inheritance)
+Đa hình (Polymorphism)
+Trừu tượng (Abstraction)
+
+
+1 Đóng gói (Encapsulation)
+Đóng gói nghĩa là che giấu thông tin bên trong đối tượng và chỉ cho phép truy cập thông qua các phương thức được cung cấp (getter/setter).">
+    <meta name="generator" content="Hugo 0.151.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.efe4d852f731d5d1fbb87718387202a97aafd768cdcdaed0662bbe6982e91824.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://example.com/posts/lap-trinh-huong-doi-tuong/">
+    
+
+    <meta property="og:url" content="http://example.com/posts/lap-trinh-huong-doi-tuong/">
+  <meta property="og:site_name" content="Khánh Vũ - Blog">
+  <meta property="og:title" content="Lập trình hướng đối tượng trong Java">
+  <meta property="og:description" content="🧠 Giới thiệu Một trong những điểm mạnh nhất của Java là khả năng hỗ trợ lập trình hướng đối tượng (OOP – Object Oriented Programming).
+Lập trình hướng đối tượng giúp mã nguồn dễ mở rộng, tái sử dụng và bảo trì hơn bằng cách mô hình hóa các đối tượng trong thế giới thực.
+OOP trong Java bao gồm 4 nguyên lý chính:
+Đóng gói (Encapsulation) Kế thừa (Inheritance) Đa hình (Polymorphism) Trừu tượng (Abstraction) 1 Đóng gói (Encapsulation) Đóng gói nghĩa là che giấu thông tin bên trong đối tượng và chỉ cho phép truy cập thông qua các phương thức được cung cấp (getter/setter).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-20T23:31:29+07:00">
+    <meta property="article:modified_time" content="2025-10-20T23:31:29+07:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="OOP">
+
+  <meta itemprop="name" content="Lập trình hướng đối tượng trong Java">
+  <meta itemprop="description" content="🧠 Giới thiệu Một trong những điểm mạnh nhất của Java là khả năng hỗ trợ lập trình hướng đối tượng (OOP – Object Oriented Programming).
+Lập trình hướng đối tượng giúp mã nguồn dễ mở rộng, tái sử dụng và bảo trì hơn bằng cách mô hình hóa các đối tượng trong thế giới thực.
+OOP trong Java bao gồm 4 nguyên lý chính:
+Đóng gói (Encapsulation) Kế thừa (Inheritance) Đa hình (Polymorphism) Trừu tượng (Abstraction) 1 Đóng gói (Encapsulation) Đóng gói nghĩa là che giấu thông tin bên trong đối tượng và chỉ cho phép truy cập thông qua các phương thức được cung cấp (getter/setter).">
+  <meta itemprop="datePublished" content="2025-10-20T23:31:29+07:00">
+  <meta itemprop="dateModified" content="2025-10-20T23:31:29+07:00">
+  <meta itemprop="wordCount" content="575">
+  <meta itemprop="keywords" content="Java,OOP">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lập trình hướng đối tượng trong Java">
+  <meta name="twitter:description" content="🧠 Giới thiệu Một trong những điểm mạnh nhất của Java là khả năng hỗ trợ lập trình hướng đối tượng (OOP – Object Oriented Programming).
+Lập trình hướng đối tượng giúp mã nguồn dễ mở rộng, tái sử dụng và bảo trì hơn bằng cách mô hình hóa các đối tượng trong thế giới thực.
+OOP trong Java bao gồm 4 nguyên lý chính:
+Đóng gói (Encapsulation) Kế thừa (Inheritance) Đa hình (Polymorphism) Trừu tượng (Abstraction) 1 Đóng gói (Encapsulation) Đóng gói nghĩa là che giấu thông tin bên trong đối tượng và chỉ cho phép truy cập thông qua các phương thức được cung cấp (getter/setter).">
+
+      
+    
+	
+  </head><body class="ma0 bg-near-white avenir production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://example.com/images/java.webp');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Khánh Vũ - Blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/posts/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/profile/" title="Profile page">
+              Profile
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Lập trình hướng đối tượng trong Java</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Bài viết
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Lập trình hướng đối tượng trong Java</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-20T23:31:29+07:00">October 20, 2025</time>
+      
+
+      
+      
+        
+        
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 575 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="-giới-thiệu">🧠 Giới thiệu</h2>
+<p>Một trong những điểm mạnh nhất của <strong>Java</strong> là khả năng hỗ trợ <strong>lập trình hướng đối tượng (OOP – Object Oriented Programming)</strong>.<br>
+Lập trình hướng đối tượng giúp mã nguồn <strong>dễ mở rộng, tái sử dụng và bảo trì hơn</strong> bằng cách mô hình hóa các đối tượng trong thế giới thực.</p>
+<p>OOP trong Java bao gồm <strong>4 nguyên lý chính</strong>:</p>
+<ol>
+<li><strong>Đóng gói (Encapsulation)</strong></li>
+<li><strong>Kế thừa (Inheritance)</strong></li>
+<li><strong>Đa hình (Polymorphism)</strong></li>
+<li><strong>Trừu tượng (Abstraction)</strong></li>
+</ol>
+<hr>
+<h2 id="1-đóng-gói-encapsulation">1 Đóng gói (Encapsulation)</h2>
+<p><strong>Đóng gói</strong> nghĩa là che giấu thông tin bên trong đối tượng và chỉ cho phép truy cập thông qua các phương thức được cung cấp (getter/setter).</p>
+<p>👉 <strong>Ví dụ:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String name;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> age;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Student</span>(String name, <span style="color:#66d9ef">int</span> age) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> age;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getName</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> name;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setAge</span>(<span style="color:#66d9ef">int</span> age) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (age <span style="color:#f92672">&gt;</span> 0) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> age;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">showInfo</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; - &#34;</span> <span style="color:#f92672">+</span> age <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; tuổi&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Ở đây, các thuộc tính name và age được ẩn đi (private) — bên ngoài chỉ có thể truy cập thông qua các phương thức get và set.</p>
+<h2 id="2-kế-thừa-inheritance">2 Kế thừa (Inheritance)</h2>
+<p><strong>Kế thừa</strong> cho phép một lớp tái sử dụng thuộc tính và phương thức của lớp khác.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> String name;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Person</span>(String name) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">greet</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Xin chào, tôi là &#34;</span> <span style="color:#f92672">+</span> name);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> <span style="color:#66d9ef">extends</span> Person {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> studentId;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Student</span>(String name, <span style="color:#66d9ef">int</span> studentId) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>(name);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">studentId</span> <span style="color:#f92672">=</span> studentId;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">showStudent</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Tên: &#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, Mã SV: &#34;</span> <span style="color:#f92672">+</span> studentId);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Student kế thừa từ Person nên có thể dùng lại name và phương thức greet().</p>
+<h2 id="3-đa-hình-polymorphism">3 Đa hình (Polymorphism)</h2>
+<p><strong>Đa hình</strong> nghĩa là cùng một phương thức, nhưng có thể hoạt động theo nhiều cách khác nhau.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sound</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Động vật phát ra âm thanh&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Dog</span> <span style="color:#66d9ef">extends</span> Animal {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sound</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Gâu gâu!&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cat</span> <span style="color:#66d9ef">extends</span> Animal {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sound</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Meo meo!&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        Animal a1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Dog();
+</span></span><span style="display:flex;"><span>        Animal a2 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Cat();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        a1.<span style="color:#a6e22e">sound</span>();  <span style="color:#75715e">// Gâu gâu!</span>
+</span></span><span style="display:flex;"><span>        a2.<span style="color:#a6e22e">sound</span>();  <span style="color:#75715e">// Meo meo!</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Cùng gọi sound(), nhưng mỗi đối tượng lại thực thi hành vi khác nhau.</p>
+<h2 id="4-trừu-tượng-abstraction">4 Trừu tượng (Abstraction)</h2>
+<p><strong>Trừu tượng</strong> nghĩa là chỉ tập trung vào cái gì cần thiết, ẩn đi chi tiết cài đặt.
+Trong Java, ta dùng abstract class hoặc interface để đạt được điều này.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Shape</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">draw</span>();  <span style="color:#75715e">// phương thức trừu tượng</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Circle</span> <span style="color:#66d9ef">extends</span> Shape {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">draw</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Vẽ hình tròn&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Square</span> <span style="color:#66d9ef">extends</span> Shape {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">draw</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Vẽ hình vuông&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Demo</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        Shape s1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Circle();
+</span></span><span style="display:flex;"><span>        Shape s2 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Square();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        s1.<span style="color:#a6e22e">draw</span>();
+</span></span><span style="display:flex;"><span>        s2.<span style="color:#a6e22e">draw</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Các lớp con (Circle, Square) phải định nghĩa lại phương thức draw().</p>
+<p><strong>Kết luận</strong></p>
+<p>Lập trình hướng đối tượng giúp Java:</p>
+<p><strong>✅ Dễ bảo trì và mở rộng</strong>.</p>
+<p><strong>✅ Giảm trùng lặp mã</strong>.</p>
+<p><strong>✅ Mô hình hóa chương trình giống thế giới thực hơn</strong>.</p>
+<p>Nắm vững 4 nguyên lý Encapsulation – Inheritance – Polymorphism – Abstraction là nền tảng để học Java nâng cao, Spring Boot, hay Android sau này.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/java/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Java</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/oop/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">OOP</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/thuat-toan-co-ban/">Tổng hợp một số thuật toán cơ bản thường gặp</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/kieu-du-lieu-co-ban-java/">Các kiểu dữ liệu cơ bản trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/lam-quen-voi-java/">Làm quen với ngôn ngữ lập trình Java</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://example.com/" >
+    &copy;  Khánh Vũ - Blog 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

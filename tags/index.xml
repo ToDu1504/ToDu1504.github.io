@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Khánh Vũ - Blog</title>
+    <link>http://example.com/tags/</link>
+    <description>Recent content in Tags on Khánh Vũ - Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Oct 2025 23:31:29 +0700</lastBuildDate>
+    <atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>http://example.com/tags/java/</link>
+      <pubDate>Mon, 20 Oct 2025 23:31:29 +0700</pubDate>
+      <guid>http://example.com/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OOP</title>
+      <link>http://example.com/tags/oop/</link>
+      <pubDate>Mon, 20 Oct 2025 23:31:29 +0700</pubDate>
+      <guid>http://example.com/tags/oop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JS</title>
+      <link>http://example.com/tags/js/</link>
+      <pubDate>Mon, 20 Oct 2025 11:20:00 +0700</pubDate>
+      <guid>http://example.com/tags/js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thuật Toán</title>
+      <link>http://example.com/tags/thu%E1%BA%ADt-to%C3%A1n/</link>
+      <pubDate>Mon, 20 Oct 2025 11:20:00 +0700</pubDate>
+      <guid>http://example.com/tags/thu%E1%BA%ADt-to%C3%A1n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Async</title>
+      <link>http://example.com/tags/async/</link>
+      <pubDate>Mon, 20 Oct 2025 11:10:00 +0700</pubDate>
+      <guid>http://example.com/tags/async/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://example.com/tags/javascript/</link>
+      <pubDate>Mon, 20 Oct 2025 11:10:00 +0700</pubDate>
+      <guid>http://example.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promise</title>
+      <link>http://example.com/tags/promise/</link>
+      <pubDate>Mon, 20 Oct 2025 11:10:00 +0700</pubDate>
+      <guid>http://example.com/tags/promise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ES6</title>
+      <link>http://example.com/tags/es6/</link>
+      <pubDate>Mon, 20 Oct 2025 11:00:00 +0700</pubDate>
+      <guid>http://example.com/tags/es6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DOM</title>
+      <link>http://example.com/tags/dom/</link>
+      <pubDate>Mon, 20 Oct 2025 10:50:00 +0700</pubDate>
+      <guid>http://example.com/tags/dom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kiểu Dữ Liệu</title>
+      <link>http://example.com/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/</link>
+      <pubDate>Mon, 20 Oct 2025 10:40:00 +0700</pubDate>
+      <guid>http://example.com/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cơ Bản</title>
+      <link>http://example.com/tags/c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Mon, 20 Oct 2025 10:30:00 +0700</pubDate>
+      <guid>http://example.com/tags/c%C6%A1-b%E1%BA%A3n/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

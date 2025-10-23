@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OOP on Khánh Vũ - Blog</title>
+    <link>http://example.com/tags/oop/</link>
+    <description>Recent content in OOP on Khánh Vũ - Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Oct 2025 23:31:29 +0700</lastBuildDate>
+    <atom:link href="http://example.com/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình hướng đối tượng trong Java</title>
+      <link>http://example.com/posts/lap-trinh-huong-doi-tuong/</link>
+      <pubDate>Mon, 20 Oct 2025 23:31:29 +0700</pubDate>
+      <guid>http://example.com/posts/lap-trinh-huong-doi-tuong/</guid>
+      <description>&lt;h2 id=&#34;-giới-thiệu&#34;&gt;🧠 Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Một trong những điểm mạnh nhất của &lt;strong&gt;Java&lt;/strong&gt; là khả năng hỗ trợ &lt;strong&gt;lập trình hướng đối tượng (OOP – Object Oriented Programming)&lt;/strong&gt;.&lt;br&gt;&#xA;Lập trình hướng đối tượng giúp mã nguồn &lt;strong&gt;dễ mở rộng, tái sử dụng và bảo trì hơn&lt;/strong&gt; bằng cách mô hình hóa các đối tượng trong thế giới thực.&lt;/p&gt;&#xA;&lt;p&gt;OOP trong Java bao gồm &lt;strong&gt;4 nguyên lý chính&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Đóng gói (Encapsulation)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kế thừa (Inheritance)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Đa hình (Polymorphism)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Trừu tượng (Abstraction)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-đóng-gói-encapsulation&#34;&gt;1 Đóng gói (Encapsulation)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Đóng gói&lt;/strong&gt; nghĩa là che giấu thông tin bên trong đối tượng và chỉ cho phép truy cập thông qua các phương thức được cung cấp (getter/setter).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cơ Bản on Khánh Vũ - Blog</title>
-    <link>http://example.com/tags/c%C6%A1-b%E1%BA%A3n/</link>
+    <link>http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/</link>
     <description>Recent content in Cơ Bản on Khánh Vũ - Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Oct 2025 10:30:00 +0700</lastBuildDate>
-    <atom:link href="http://example.com/tags/c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Giới thiệu về JavaScript cho người mới bắt đầu</title>
-      <link>http://example.com/posts/gioi-thieu-javascript/</link>
+      <link>http://todu1504.github.io/posts/gioi-thieu-javascript/</link>
       <pubDate>Mon, 20 Oct 2025 10:30:00 +0700</pubDate>
-      <guid>http://example.com/posts/gioi-thieu-javascript/</guid>
+      <guid>http://todu1504.github.io/posts/gioi-thieu-javascript/</guid>
       <description>&lt;p&gt;JavaScript (JS) là ngôn ngữ lập trình chạy chủ yếu trên trình duyệt, dùng để tạo các trang web tương tác. JS có cú pháp dễ học, linh hoạt và là công cụ không thể thiếu trong lập trình web front-end.&lt;/p&gt;&#xA;&lt;p&gt;Ví dụ đơn giản:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Xin chào JavaScript!&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;An&amp;#34;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;alert&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Xin chào &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Làm quen với ngôn ngữ lập trình Java</title>
-      <link>http://example.com/posts/lam-quen-voi-java/</link>
+      <link>http://todu1504.github.io/posts/lam-quen-voi-java/</link>
       <pubDate>Mon, 20 Oct 2025 10:00:00 +0700</pubDate>
-      <guid>http://example.com/posts/lam-quen-voi-java/</guid>
+      <guid>http://todu1504.github.io/posts/lam-quen-voi-java/</guid>
       <description>&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng phổ biến được phát triển bởi Sun Microsystems. Điểm mạnh của Java là tính độc lập nền tảng — chương trình viết một lần có thể chạy trên nhiều hệ điều hành khác nhau nhờ máy ảo JVM.&lt;/p&gt;&#xA;&lt;p&gt;Một chương trình Java cơ bản có cấu trúc như sau:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HelloWorld&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Xin chào Java!&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>

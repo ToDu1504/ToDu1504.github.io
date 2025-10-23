@@ -2,85 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.com/posts/</loc>
+    <loc>http://todu1504.github.io/posts/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/</loc>
+    <loc>http://todu1504.github.io/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/profile/</loc>
+    <loc>http://todu1504.github.io/profile/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.com/categories/</loc>
+    <loc>http://todu1504.github.io/categories/</loc>
     <lastmod>2025-10-20T23:31:29+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/categories/java/</loc>
+    <loc>http://todu1504.github.io/categories/java/</loc>
     <lastmod>2025-10-20T23:31:29+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/java/</loc>
+    <loc>http://todu1504.github.io/tags/java/</loc>
     <lastmod>2025-10-20T23:31:29+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/lap-trinh-huong-doi-tuong/</loc>
+    <loc>http://todu1504.github.io/posts/lap-trinh-huong-doi-tuong/</loc>
     <lastmod>2025-10-20T23:31:29+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/oop/</loc>
+    <loc>http://todu1504.github.io/tags/oop/</loc>
     <lastmod>2025-10-20T23:31:29+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/</loc>
+    <loc>http://todu1504.github.io/tags/</loc>
     <lastmod>2025-10-20T23:31:29+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/categories/javascript/</loc>
+    <loc>http://todu1504.github.io/categories/javascript/</loc>
     <lastmod>2025-10-20T11:20:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/js/</loc>
+    <loc>http://todu1504.github.io/tags/js/</loc>
     <lastmod>2025-10-20T11:20:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/thu%E1%BA%ADt-to%C3%A1n/</loc>
+    <loc>http://todu1504.github.io/tags/thu%E1%BA%ADt-to%C3%A1n/</loc>
     <lastmod>2025-10-20T11:20:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/thuat-toan-co-ban/</loc>
+    <loc>http://todu1504.github.io/posts/thuat-toan-co-ban/</loc>
     <lastmod>2025-10-20T11:20:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/async/</loc>
+    <loc>http://todu1504.github.io/tags/async/</loc>
     <lastmod>2025-10-20T11:10:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/javascript/</loc>
+    <loc>http://todu1504.github.io/tags/javascript/</loc>
     <lastmod>2025-10-20T11:10:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/promise/</loc>
+    <loc>http://todu1504.github.io/tags/promise/</loc>
     <lastmod>2025-10-20T11:10:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/async-await/</loc>
+    <loc>http://todu1504.github.io/posts/async-await/</loc>
     <lastmod>2025-10-20T11:10:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/es6/</loc>
+    <loc>http://todu1504.github.io/tags/es6/</loc>
     <lastmod>2025-10-20T11:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/es6-co-ban/</loc>
+    <loc>http://todu1504.github.io/posts/es6-co-ban/</loc>
     <lastmod>2025-10-20T11:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/dom/</loc>
+    <loc>http://todu1504.github.io/tags/dom/</loc>
     <lastmod>2025-10-20T10:50:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/dom-manipulation/</loc>
+    <loc>http://todu1504.github.io/posts/dom-manipulation/</loc>
     <lastmod>2025-10-20T10:50:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/kieu-du-lieu-trong-js/</loc>
+    <loc>http://todu1504.github.io/posts/kieu-du-lieu-trong-js/</loc>
     <lastmod>2025-10-20T10:40:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/</loc>
+    <loc>http://todu1504.github.io/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/</loc>
     <lastmod>2025-10-20T10:40:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/tags/c%C6%A1-b%E1%BA%A3n/</loc>
+    <loc>http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/</loc>
     <lastmod>2025-10-20T10:30:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/gioi-thieu-javascript/</loc>
+    <loc>http://todu1504.github.io/posts/gioi-thieu-javascript/</loc>
     <lastmod>2025-10-20T10:30:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/kieu-du-lieu-co-ban-java/</loc>
+    <loc>http://todu1504.github.io/posts/kieu-du-lieu-co-ban-java/</loc>
     <lastmod>2025-10-20T10:10:00+07:00</lastmod>
   </url><url>
-    <loc>http://example.com/posts/lam-quen-voi-java/</loc>
+    <loc>http://todu1504.github.io/posts/lam-quen-voi-java/</loc>
     <lastmod>2025-10-20T10:00:00+07:00</lastmod>
   </url>
 </urlset>

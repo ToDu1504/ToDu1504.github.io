@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java 8 on Khánh Vũ - Blog</title>
+    <link>http://todu1504.github.io/tags/java-8/</link>
+    <description>Recent content in Java 8 on Khánh Vũ - Blog</description>
+    <generator>Hugo</generator>
+    <language>vn-vi</language>
+    <lastBuildDate>Fri, 24 Oct 2025 21:48:00 +0700</lastBuildDate>
+    <atom:link href="http://todu1504.github.io/tags/java-8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Stream API</title>
+      <link>http://todu1504.github.io/posts/java-stream-api/</link>
+      <pubDate>Fri, 24 Oct 2025 21:48:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/posts/java-stream-api/</guid>
+      <description>&lt;h2 id=&#34;-giới-thiệu&#34;&gt;🌊 Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Stream API&lt;/strong&gt; được giới thiệu từ &lt;strong&gt;Java 8&lt;/strong&gt; nhằm giúp lập trình viên xử lý &lt;strong&gt;dữ liệu theo hướng hàm (functional)&lt;/strong&gt; thay vì dùng vòng lặp truyền thống.&lt;/p&gt;&#xA;&lt;p&gt;Stream cho phép:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Duyệt, lọc, sắp xếp, gom nhóm dữ liệu dễ dàng&lt;/li&gt;&#xA;&lt;li&gt;Viết code ngắn gọn, dễ đọc&lt;/li&gt;&#xA;&lt;li&gt;Tận dụng khả năng &lt;strong&gt;xử lý song song (parallel)&lt;/strong&gt; để tăng hiệu suất&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-1-tạo-stream&#34;&gt;🧩 1. Tạo Stream&lt;/h2&gt;&#xA;&lt;p&gt;Có nhiều cách để tạo một Stream trong Java:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

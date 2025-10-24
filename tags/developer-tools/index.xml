@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developer Tools on Khánh Vũ - Blog</title>
+    <link>http://todu1504.github.io/tags/developer-tools/</link>
+    <description>Recent content in Developer Tools on Khánh Vũ - Blog</description>
+    <generator>Hugo</generator>
+    <language>vn-vi</language>
+    <lastBuildDate>Fri, 24 Oct 2025 21:35:00 +0700</lastBuildDate>
+    <atom:link href="http://todu1504.github.io/tags/developer-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cách debug ứng dụng JavaScript</title>
+      <link>http://todu1504.github.io/posts/debug-javascript/</link>
+      <pubDate>Fri, 24 Oct 2025 21:35:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/posts/debug-javascript/</guid>
+      <description>&lt;h2 id=&#34;-giới-thiệu&#34;&gt;🧠 Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Khi lập trình JavaScript, lỗi là điều không thể tránh khỏi.&lt;br&gt;&#xA;Vì vậy, &lt;strong&gt;debug (gỡ lỗi)&lt;/strong&gt; là kỹ năng cực kỳ quan trọng giúp lập trình viên &lt;strong&gt;phát hiện và sửa lỗi nhanh chóng&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Bài viết này sẽ hướng dẫn các cách debug hiệu quả trong JavaScript — từ cơ bản đến nâng cao.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-dùng-consolelog&#34;&gt;1. Dùng &lt;code&gt;console.log()&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Cách phổ biến nhất để kiểm tra giá trị biến:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

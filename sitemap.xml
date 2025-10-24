@@ -2,44 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://todu1504.github.io/posts/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
+    <loc>http://todu1504.github.io/tags/algorithm/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/categories/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
   </url><url>
     <loc>http://todu1504.github.io/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/java/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/categories/l%E1%BA%ADp-tr%C3%ACnh-c%C6%A1-b%E1%BA%A3n/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/searching/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/sorting/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/categories/thu%E1%BA%ADt-to%C3%A1n/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/posts/thuat-toan-co-ban/</loc>
+    <lastmod>2025-10-24T22:42:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/posts/es6-co-ban/</loc>
+    <lastmod>2025-10-24T22:17:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/es6/</loc>
+    <lastmod>2025-10-24T22:17:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/categories/javascript/</loc>
+    <lastmod>2025-10-24T22:17:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/javascript/</loc>
+    <lastmod>2025-10-24T22:17:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/modern-js/</loc>
+    <lastmod>2025-10-24T22:17:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/dom/</loc>
+    <lastmod>2025-10-24T22:03:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/html/</loc>
+    <lastmod>2025-10-24T22:03:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/posts/dom-manipulation/</loc>
+    <lastmod>2025-10-24T22:03:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/web-c%C6%A1-b%E1%BA%A3n/</loc>
+    <lastmod>2025-10-24T22:03:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/</loc>
+    <lastmod>2025-10-24T21:56:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/data-types/</loc>
+    <lastmod>2025-10-24T21:56:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/posts/kieu-du-lieu-trong-js/</loc>
+    <lastmod>2025-10-24T21:56:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/categories/java/</loc>
+    <lastmod>2025-10-24T21:48:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/java-8/</loc>
+    <lastmod>2025-10-24T21:48:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/posts/java-stream-api/</loc>
+    <lastmod>2025-10-24T21:48:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/stream-api/</loc>
+    <lastmod>2025-10-24T21:48:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/posts/lam-quen-voi-java/</loc>
+    <lastmod>2025-10-24T21:38:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/posts/debug-javascript/</loc>
+    <lastmod>2025-10-24T21:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/debug/</loc>
+    <lastmod>2025-10-24T21:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/tags/developer-tools/</loc>
+    <lastmod>2025-10-24T21:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://todu1504.github.io/posts/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://todu1504.github.io/profile/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/categories/</loc>
-    <lastmod>2025-10-20T23:31:29+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/categories/java/</loc>
-    <lastmod>2025-10-20T23:31:29+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/tags/java/</loc>
-    <lastmod>2025-10-20T23:31:29+07:00</lastmod>
   </url><url>
     <loc>http://todu1504.github.io/posts/lap-trinh-huong-doi-tuong/</loc>
     <lastmod>2025-10-20T23:31:29+07:00</lastmod>
   </url><url>
     <loc>http://todu1504.github.io/tags/oop/</loc>
     <lastmod>2025-10-20T23:31:29+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/tags/</loc>
-    <lastmod>2025-10-20T23:31:29+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/categories/javascript/</loc>
-    <lastmod>2025-10-20T11:20:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/tags/javascript/</loc>
-    <lastmod>2025-10-20T11:20:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/tags/thu%E1%BA%ADt-to%C3%A1n/</loc>
-    <lastmod>2025-10-20T11:20:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/posts/thuat-toan-co-ban/</loc>
-    <lastmod>2025-10-20T11:20:00+07:00</lastmod>
   </url><url>
     <loc>http://todu1504.github.io/tags/async/</loc>
     <lastmod>2025-10-20T11:10:00+07:00</lastmod>
@@ -49,35 +112,5 @@
   </url><url>
     <loc>http://todu1504.github.io/posts/async-await/</loc>
     <lastmod>2025-10-20T11:10:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/tags/es6/</loc>
-    <lastmod>2025-10-20T11:00:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/posts/es6-co-ban/</loc>
-    <lastmod>2025-10-20T11:00:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/tags/dom/</loc>
-    <lastmod>2025-10-20T10:50:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/posts/dom-manipulation/</loc>
-    <lastmod>2025-10-20T10:50:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/posts/kieu-du-lieu-trong-js/</loc>
-    <lastmod>2025-10-20T10:40:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/</loc>
-    <lastmod>2025-10-20T10:40:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/</loc>
-    <lastmod>2025-10-20T10:30:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/posts/gioi-thieu-javascript/</loc>
-    <lastmod>2025-10-20T10:30:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/posts/kieu-du-lieu-co-ban-java/</loc>
-    <lastmod>2025-10-20T10:10:00+07:00</lastmod>
-  </url><url>
-    <loc>http://todu1504.github.io/posts/lam-quen-voi-java/</loc>
-    <lastmod>2025-10-20T10:00:00+07:00</lastmod>
   </url>
 </urlset>

@@ -6,13 +6,118 @@
     <description>Recent content in Tags on Khánh Vũ - Blog</description>
     <generator>Hugo</generator>
     <language>vn-vi</language>
-    <lastBuildDate>Mon, 20 Oct 2025 23:31:29 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 22:42:00 +0700</lastBuildDate>
     <atom:link href="http://todu1504.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm</title>
+      <link>http://todu1504.github.io/tags/algorithm/</link>
+      <pubDate>Fri, 24 Oct 2025 22:42:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Java</title>
       <link>http://todu1504.github.io/tags/java/</link>
-      <pubDate>Mon, 20 Oct 2025 23:31:29 +0700</pubDate>
+      <pubDate>Fri, 24 Oct 2025 22:42:00 +0700</pubDate>
       <guid>http://todu1504.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Searching</title>
+      <link>http://todu1504.github.io/tags/searching/</link>
+      <pubDate>Fri, 24 Oct 2025 22:42:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/searching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>http://todu1504.github.io/tags/sorting/</link>
+      <pubDate>Fri, 24 Oct 2025 22:42:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/sorting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ES6</title>
+      <link>http://todu1504.github.io/tags/es6/</link>
+      <pubDate>Fri, 24 Oct 2025 22:17:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/es6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://todu1504.github.io/tags/javascript/</link>
+      <pubDate>Fri, 24 Oct 2025 22:17:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modern JS</title>
+      <link>http://todu1504.github.io/tags/modern-js/</link>
+      <pubDate>Fri, 24 Oct 2025 22:17:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/modern-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DOM</title>
+      <link>http://todu1504.github.io/tags/dom/</link>
+      <pubDate>Fri, 24 Oct 2025 22:03:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/dom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>http://todu1504.github.io/tags/html/</link>
+      <pubDate>Fri, 24 Oct 2025 22:03:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Cơ Bản</title>
+      <link>http://todu1504.github.io/tags/web-c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Fri, 24 Oct 2025 22:03:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/web-c%C6%A1-b%E1%BA%A3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cơ Bản</title>
+      <link>http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Fri, 24 Oct 2025 21:56:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Types</title>
+      <link>http://todu1504.github.io/tags/data-types/</link>
+      <pubDate>Fri, 24 Oct 2025 21:56:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/data-types/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java 8</title>
+      <link>http://todu1504.github.io/tags/java-8/</link>
+      <pubDate>Fri, 24 Oct 2025 21:48:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/java-8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stream API</title>
+      <link>http://todu1504.github.io/tags/stream-api/</link>
+      <pubDate>Fri, 24 Oct 2025 21:48:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/stream-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debug</title>
+      <link>http://todu1504.github.io/tags/debug/</link>
+      <pubDate>Fri, 24 Oct 2025 21:35:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/debug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer Tools</title>
+      <link>http://todu1504.github.io/tags/developer-tools/</link>
+      <pubDate>Fri, 24 Oct 2025 21:35:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/tags/developer-tools/</guid>
       <description></description>
     </item>
     <item>
@@ -20,20 +125,6 @@
       <link>http://todu1504.github.io/tags/oop/</link>
       <pubDate>Mon, 20 Oct 2025 23:31:29 +0700</pubDate>
       <guid>http://todu1504.github.io/tags/oop/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JavaScript</title>
-      <link>http://todu1504.github.io/tags/javascript/</link>
-      <pubDate>Mon, 20 Oct 2025 11:20:00 +0700</pubDate>
-      <guid>http://todu1504.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Thuật Toán</title>
-      <link>http://todu1504.github.io/tags/thu%E1%BA%ADt-to%C3%A1n/</link>
-      <pubDate>Mon, 20 Oct 2025 11:20:00 +0700</pubDate>
-      <guid>http://todu1504.github.io/tags/thu%E1%BA%ADt-to%C3%A1n/</guid>
       <description></description>
     </item>
     <item>
@@ -48,34 +139,6 @@
       <link>http://todu1504.github.io/tags/promise/</link>
       <pubDate>Mon, 20 Oct 2025 11:10:00 +0700</pubDate>
       <guid>http://todu1504.github.io/tags/promise/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ES6</title>
-      <link>http://todu1504.github.io/tags/es6/</link>
-      <pubDate>Mon, 20 Oct 2025 11:00:00 +0700</pubDate>
-      <guid>http://todu1504.github.io/tags/es6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DOM</title>
-      <link>http://todu1504.github.io/tags/dom/</link>
-      <pubDate>Mon, 20 Oct 2025 10:50:00 +0700</pubDate>
-      <guid>http://todu1504.github.io/tags/dom/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kiểu Dữ Liệu</title>
-      <link>http://todu1504.github.io/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/</link>
-      <pubDate>Mon, 20 Oct 2025 10:40:00 +0700</pubDate>
-      <guid>http://todu1504.github.io/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cơ Bản</title>
-      <link>http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/</link>
-      <pubDate>Mon, 20 Oct 2025 10:30:00 +0700</pubDate>
-      <guid>http://todu1504.github.io/tags/c%C6%A1-b%E1%BA%A3n/</guid>
       <description></description>
     </item>
   </channel>

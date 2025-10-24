@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Cơ Bản on Khánh Vũ - Blog</title>
+    <link>http://todu1504.github.io/tags/web-c%C6%A1-b%E1%BA%A3n/</link>
+    <description>Recent content in Web Cơ Bản on Khánh Vũ - Blog</description>
+    <generator>Hugo</generator>
+    <language>vn-vi</language>
+    <lastBuildDate>Fri, 24 Oct 2025 22:03:00 +0700</lastBuildDate>
+    <atom:link href="http://todu1504.github.io/tags/web-c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thao tác DOM trong JavaScript</title>
+      <link>http://todu1504.github.io/posts/dom-manipulation/</link>
+      <pubDate>Fri, 24 Oct 2025 22:03:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/posts/dom-manipulation/</guid>
+      <description>&lt;h2 id=&#34;-giới-thiệu&#34;&gt;🧩 Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;DOM (Document Object Model)&lt;/strong&gt; là cầu nối giữa &lt;strong&gt;JavaScript và HTML&lt;/strong&gt;.&lt;br&gt;&#xA;Nhờ DOM, JavaScript có thể &lt;strong&gt;truy cập, thay đổi, thêm hoặc xóa&lt;/strong&gt; các phần tử trong trang web.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-1-dom-là-gì&#34;&gt;🔹 1. DOM là gì?&lt;/h2&gt;&#xA;&lt;p&gt;DOM là &lt;strong&gt;mô hình dạng cây&lt;/strong&gt; mô tả cấu trúc của tài liệu HTML.&lt;br&gt;&#xA;Mỗi thẻ HTML là &lt;strong&gt;một nút (node)&lt;/strong&gt; trong cây DOM.&lt;/p&gt;&#xA;&lt;p&gt;Ví dụ HTML:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;Xin chào&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Đây là ví dụ DOM.&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Cấu trúc DOM sẽ như sau:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

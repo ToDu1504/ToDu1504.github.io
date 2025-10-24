@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lập Trình Cơ Bản on Khánh Vũ - Blog</title>
+    <link>http://todu1504.github.io/categories/l%E1%BA%ADp-tr%C3%ACnh-c%C6%A1-b%E1%BA%A3n/</link>
+    <description>Recent content in Lập Trình Cơ Bản on Khánh Vũ - Blog</description>
+    <generator>Hugo</generator>
+    <language>vn-vi</language>
+    <lastBuildDate>Fri, 24 Oct 2025 22:42:00 +0700</lastBuildDate>
+    <atom:link href="http://todu1504.github.io/categories/l%E1%BA%ADp-tr%C3%ACnh-c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tổng hợp thuật toán cơ bản</title>
+      <link>http://todu1504.github.io/posts/thuat-toan-co-ban/</link>
+      <pubDate>Fri, 24 Oct 2025 22:42:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/posts/thuat-toan-co-ban/</guid>
+      <description>&lt;h2 id=&#34;-giới-thiệu&#34;&gt;🧠 Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Thuật toán (Algorithm) là &lt;strong&gt;trái tim của lập trình&lt;/strong&gt;.&lt;br&gt;&#xA;Dù bạn dùng ngôn ngữ nào — Java, Python, hay JavaScript — thì việc hiểu rõ &lt;strong&gt;các thuật toán cơ bản&lt;/strong&gt; sẽ giúp bạn &lt;strong&gt;tư duy tốt hơn&lt;/strong&gt; và &lt;strong&gt;giải quyết vấn đề nhanh hơn&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Bài này tổng hợp các thuật toán &lt;strong&gt;cốt lõi&lt;/strong&gt; mà người học lập trình cần nắm.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-1-tìm-kiếm-tuyến-tính-linear-search&#34;&gt;🔹 1. Tìm kiếm tuyến tính (Linear Search)&lt;/h2&gt;&#xA;&lt;p&gt;Duyệt từng phần tử để tìm giá trị mong muốn.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

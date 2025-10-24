@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="vn-vi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Java Stream API | Khánh Vũ - Blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="🌊 Giới thiệu
+Stream API được giới thiệu từ Java 8 nhằm giúp lập trình viên xử lý dữ liệu theo hướng hàm (functional) thay vì dùng vòng lặp truyền thống.
+Stream cho phép:
+
+Duyệt, lọc, sắp xếp, gom nhóm dữ liệu dễ dàng
+Viết code ngắn gọn, dễ đọc
+Tận dụng khả năng xử lý song song (parallel) để tăng hiệu suất
+
+
+🧩 1. Tạo Stream
+Có nhiều cách để tạo một Stream trong Java:">
+    <meta name="generator" content="Hugo 0.151.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.efe4d852f731d5d1fbb87718387202a97aafd768cdcdaed0662bbe6982e91824.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://todu1504.github.io/posts/java-stream-api/">
+    
+
+    <meta property="og:url" content="http://todu1504.github.io/posts/java-stream-api/">
+  <meta property="og:site_name" content="Khánh Vũ - Blog">
+  <meta property="og:title" content="Java Stream API">
+  <meta property="og:description" content="🌊 Giới thiệu Stream API được giới thiệu từ Java 8 nhằm giúp lập trình viên xử lý dữ liệu theo hướng hàm (functional) thay vì dùng vòng lặp truyền thống.
+Stream cho phép:
+Duyệt, lọc, sắp xếp, gom nhóm dữ liệu dễ dàng Viết code ngắn gọn, dễ đọc Tận dụng khả năng xử lý song song (parallel) để tăng hiệu suất 🧩 1. Tạo Stream Có nhiều cách để tạo một Stream trong Java:">
+  <meta property="og:locale" content="vn_vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-24T21:48:00+07:00">
+    <meta property="article:modified_time" content="2025-10-24T21:48:00+07:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Stream API">
+    <meta property="article:tag" content="Java 8">
+
+  <meta itemprop="name" content="Java Stream API">
+  <meta itemprop="description" content="🌊 Giới thiệu Stream API được giới thiệu từ Java 8 nhằm giúp lập trình viên xử lý dữ liệu theo hướng hàm (functional) thay vì dùng vòng lặp truyền thống.
+Stream cho phép:
+Duyệt, lọc, sắp xếp, gom nhóm dữ liệu dễ dàng Viết code ngắn gọn, dễ đọc Tận dụng khả năng xử lý song song (parallel) để tăng hiệu suất 🧩 1. Tạo Stream Có nhiều cách để tạo một Stream trong Java:">
+  <meta itemprop="datePublished" content="2025-10-24T21:48:00+07:00">
+  <meta itemprop="dateModified" content="2025-10-24T21:48:00+07:00">
+  <meta itemprop="wordCount" content="517">
+  <meta itemprop="keywords" content="Java,Stream API,Java 8">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Java Stream API">
+  <meta name="twitter:description" content="🌊 Giới thiệu Stream API được giới thiệu từ Java 8 nhằm giúp lập trình viên xử lý dữ liệu theo hướng hàm (functional) thay vì dùng vòng lặp truyền thống.
+Stream cho phép:
+Duyệt, lọc, sắp xếp, gom nhóm dữ liệu dễ dàng Viết code ngắn gọn, dễ đọc Tận dụng khả năng xử lý song song (parallel) để tăng hiệu suất 🧩 1. Tạo Stream Có nhiều cách để tạo một Stream trong Java:">
+
+      
+    
+	
+  </head><body class="ma0 bg-near-white avenir production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://todu1504.github.io/images/java.webp');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Khánh Vũ - Blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/posts/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/profile/" title="Profile page">
+              Profile
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Java Stream API</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Bài viết
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Java Stream API</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-24T21:48:00+07:00">October 24, 2025</time>
+      
+
+      
+      
+        
+        
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 517 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="-giới-thiệu">🌊 Giới thiệu</h2>
+<p><strong>Stream API</strong> được giới thiệu từ <strong>Java 8</strong> nhằm giúp lập trình viên xử lý <strong>dữ liệu theo hướng hàm (functional)</strong> thay vì dùng vòng lặp truyền thống.</p>
+<p>Stream cho phép:</p>
+<ul>
+<li>Duyệt, lọc, sắp xếp, gom nhóm dữ liệu dễ dàng</li>
+<li>Viết code ngắn gọn, dễ đọc</li>
+<li>Tận dụng khả năng <strong>xử lý song song (parallel)</strong> để tăng hiệu suất</li>
+</ul>
+<hr>
+<h2 id="-1-tạo-stream">🧩 1. Tạo Stream</h2>
+<p>Có nhiều cách để tạo một Stream trong Java:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.stream.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">StreamExample</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 1. Từ danh sách (List)</span>
+</span></span><span style="display:flex;"><span>        List<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> list <span style="color:#f92672">=</span> Arrays.<span style="color:#a6e22e">asList</span>(1, 2, 3, 4, 5);
+</span></span><span style="display:flex;"><span>        Stream<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> stream1 <span style="color:#f92672">=</span> list.<span style="color:#a6e22e">stream</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 2. Từ mảng</span>
+</span></span><span style="display:flex;"><span>        Stream<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> stream2 <span style="color:#f92672">=</span> Arrays.<span style="color:#a6e22e">stream</span>(<span style="color:#66d9ef">new</span> Integer<span style="color:#f92672">[]</span>{1, 2, 3});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 3. Từ giá trị trực tiếp</span>
+</span></span><span style="display:flex;"><span>        Stream<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> stream3 <span style="color:#f92672">=</span> Stream.<span style="color:#a6e22e">of</span>(<span style="color:#e6db74">&#34;Java&#34;</span>, <span style="color:#e6db74">&#34;Python&#34;</span>, <span style="color:#e6db74">&#34;C++&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-2-các-thao-tác-phổ-biến-trong-stream">⚙️ 2. Các thao tác phổ biến trong Stream</h2>
+<p><strong>Stream có hai loại thao tác:</strong></p>
+<p>Intermediate (trung gian): trả về một Stream mới (có thể nối tiếp).</p>
+<p>👉 Ví dụ: <strong>filter()</strong>, <strong>map()</strong>, <strong>sorted()</strong></p>
+<p>Terminal (cuối cùng): thực thi và kết thúc chuỗi Stream.</p>
+<p>👉 Ví dụ: <strong>forEach()</strong>, <strong>collect()</strong>, <strong>count()</strong>, <strong>reduce()</strong></p>
+<p><strong>🔹 Ví dụ 1: Lọc phần tử chẵn</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FilterExample</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        List<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> numbers <span style="color:#f92672">=</span> Arrays.<span style="color:#a6e22e">asList</span>(1, 2, 3, 4, 5, 6);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        numbers.<span style="color:#a6e22e">stream</span>()
+</span></span><span style="display:flex;"><span>               .<span style="color:#a6e22e">filter</span>(n <span style="color:#f92672">-&gt;</span> n <span style="color:#f92672">%</span> 2 <span style="color:#f92672">==</span> 0)
+</span></span><span style="display:flex;"><span>               .<span style="color:#a6e22e">forEach</span>(System.<span style="color:#a6e22e">out</span>::println);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><strong>Kết quả:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-nginx" data-lang="nginx"><span style="display:flex;"><span><span style="color:#66d9ef">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">6</span>
+</span></span></code></pre></div><p><strong>🔹 Ví dụ 2: Ánh xạ giá trị (map)</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MapExample</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> names <span style="color:#f92672">=</span> Arrays.<span style="color:#a6e22e">asList</span>(<span style="color:#e6db74">&#34;vu&#34;</span>, <span style="color:#e6db74">&#34;khanh&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        names.<span style="color:#a6e22e">stream</span>()
+</span></span><span style="display:flex;"><span>             .<span style="color:#a6e22e">map</span>(String::toUpperCase)
+</span></span><span style="display:flex;"><span>             .<span style="color:#a6e22e">forEach</span>(System.<span style="color:#a6e22e">out</span>::println);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><strong>Kết quả:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-nginx" data-lang="nginx"><span style="display:flex;"><span><span style="color:#66d9ef">VU</span>  
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">KHANH</span>  
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">JAVA</span>
+</span></span></code></pre></div><p><strong>🔹 Ví dụ 3: Sắp xếp và thu thập kết quả</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.stream.Collectors;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SortExample</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        List<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> numbers <span style="color:#f92672">=</span> Arrays.<span style="color:#a6e22e">asList</span>(5, 2, 8, 1);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        List<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> sorted <span style="color:#f92672">=</span> numbers.<span style="color:#a6e22e">stream</span>()
+</span></span><span style="display:flex;"><span>                                      .<span style="color:#a6e22e">sorted</span>()
+</span></span><span style="display:flex;"><span>                                      .<span style="color:#a6e22e">collect</span>(Collectors.<span style="color:#a6e22e">toList</span>());
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(sorted);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><strong>Kết quả:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#a6e22e">[1, 2, 5, 8]</span>
+</span></span></code></pre></div><h2 id="-3-dùng-stream-với-đối-tượng-phức-tạp">🔁 3. Dùng Stream với đối tượng phức tạp**</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.stream.Collectors;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> {
+</span></span><span style="display:flex;"><span>    String name;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> age;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    Student(String name, <span style="color:#66d9ef">int</span> age) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> age;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">getAge</span>() { <span style="color:#66d9ef">return</span> age; }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getName</span>() { <span style="color:#66d9ef">return</span> name; }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ObjectStream</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        List<span style="color:#f92672">&lt;</span>Student<span style="color:#f92672">&gt;</span> students <span style="color:#f92672">=</span> Arrays.<span style="color:#a6e22e">asList</span>(
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">new</span> Student(<span style="color:#e6db74">&#34;Vũ&#34;</span>, 20),
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">new</span> Student(<span style="color:#e6db74">&#34;Nam&#34;</span>, 22),
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">new</span> Student(<span style="color:#e6db74">&#34;An&#34;</span>, 19)
+</span></span><span style="display:flex;"><span>        );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> result <span style="color:#f92672">=</span> students.<span style="color:#a6e22e">stream</span>()
+</span></span><span style="display:flex;"><span>                .<span style="color:#a6e22e">filter</span>(s <span style="color:#f92672">-&gt;</span> s.<span style="color:#a6e22e">getAge</span>() <span style="color:#f92672">&gt;=</span> 20)
+</span></span><span style="display:flex;"><span>                .<span style="color:#a6e22e">map</span>(Student::getName)
+</span></span><span style="display:flex;"><span>                .<span style="color:#a6e22e">collect</span>(Collectors.<span style="color:#a6e22e">toList</span>());
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(result);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><strong>Kết quả:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#a6e22e">[Vũ, Nam]</span>
+</span></span></code></pre></div><h3 id="-4-xử-lý-song-song-parallel-stream">⚡ 4. Xử lý song song (Parallel Stream)</h3>
+<p>Khi dữ liệu lớn, bạn có thể dùng parallelStream() để tận dụng đa luồng:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>List<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> list <span style="color:#f92672">=</span> Arrays.<span style="color:#a6e22e">asList</span>(1, 2, 3, 4, 5, 6);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">parallelStream</span>()
+</span></span><span style="display:flex;"><span>    .<span style="color:#a6e22e">forEach</span>(n <span style="color:#f92672">-&gt;</span> System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(Thread.<span style="color:#a6e22e">currentThread</span>().<span style="color:#a6e22e">getName</span>() <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; -&gt; &#34;</span> <span style="color:#f92672">+</span> n));
+</span></span><span style="display:flex;"><span>Kết quả: (thứ tự có thể thay đổi <span style="color:#66d9ef">do</span> chạy song song)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span>ForkJoinPool.commonPool<span style="color:#f92672">-</span>worker<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> -&gt; <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>main -&gt; <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>ForkJoinPool.commonPool<span style="color:#f92672">-</span>worker<span style="color:#f92672">-</span><span style="color:#ae81ff">3</span> -&gt; <span style="color:#ae81ff">3</span>
+</span></span></code></pre></div><h2 id="-kết-luận">🧠 Kết luận</h2>
+<p>Java Stream API giúp bạn:</p>
+<p><strong>Viết code ngắn gọn, sạch và dễ đọc</strong></p>
+<p><strong>Tránh lỗi khi dùng vòng lặp lồng nhau</strong></p>
+<p><strong>Tận dụng sức mạnh xử lý song song</strong></p>
+<p>💡 Hãy thử refactor các đoạn code Java cũ dùng for hoặc while sang Stream để cảm nhận sự khác biệt!</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/java/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Java</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/stream-api/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Stream API</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/java-8/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Java 8</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/lam-quen-voi-java/">Làm quen với Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/lap-trinh-huong-doi-tuong/">Lập trình hướng đối tượng trong Java</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://todu1504.github.io/" >
+    &copy;  Khánh Vũ - Blog 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

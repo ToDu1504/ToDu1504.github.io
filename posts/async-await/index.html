@@ -7,19 +7,20 @@
     <title>Tìm hiểu Async/Await trong JavaScript | Khánh Vũ - Blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Async/Await giúp viết code bất đồng bộ (asynchronous) dễ đọc như đồng bộ.
+🔹 Cách hoạt động của Async/Await
+🔸 1. Từ khóa async
+
+Khi bạn đặt từ khóa async trước một hàm, hàm đó sẽ tự động trả về một Promise.
+Bất cứ giá trị nào được return trong hàm async sẽ được bọc trong Promise.resolve().
+
 Ví dụ:
-function wait(ms) {
-    return new Promise(resolve =&gt; setTimeout(resolve, ms));
+async function sayHello() {
+  return &#34;Xin chào!&#34;;
 }
 
-async function run() {
-    console.log(&#34;Bắt đầu&#34;);
-    await wait(2000);
-    console.log(&#34;Hoàn thành sau 2 giây&#34;);
-}
-
-run();
-">
+sayHello().then(console.log); // → Xin chào!
+🔸 2. Từ khóa await
+Chỉ có thể dùng bên trong hàm async.">
     <meta name="generator" content="Hugo 0.151.2">
     
     
@@ -56,8 +57,8 @@ run();
   <meta property="og:site_name" content="Khánh Vũ - Blog">
   <meta property="og:title" content="Tìm hiểu Async/Await trong JavaScript">
   <meta property="og:description" content="Async/Await giúp viết code bất đồng bộ (asynchronous) dễ đọc như đồng bộ.
-Ví dụ:
-function wait(ms) { return new Promise(resolve =&gt; setTimeout(resolve, ms)); } async function run() { console.log(&#34;Bắt đầu&#34;); await wait(2000); console.log(&#34;Hoàn thành sau 2 giây&#34;); } run();">
+🔹 Cách hoạt động của Async/Await 🔸 1. Từ khóa async Khi bạn đặt từ khóa async trước một hàm, hàm đó sẽ tự động trả về một Promise. Bất cứ giá trị nào được return trong hàm async sẽ được bọc trong Promise.resolve(). Ví dụ:
+async function sayHello() { return &#34;Xin chào!&#34;; } sayHello().then(console.log); // → Xin chào! 🔸 2. Từ khóa await Chỉ có thể dùng bên trong hàm async.">
   <meta property="og:locale" content="vn_vi">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -69,17 +70,17 @@ function wait(ms) { return new Promise(resolve =&gt; setTimeout(resolve, ms)); }
 
   <meta itemprop="name" content="Tìm hiểu Async/Await trong JavaScript">
   <meta itemprop="description" content="Async/Await giúp viết code bất đồng bộ (asynchronous) dễ đọc như đồng bộ.
-Ví dụ:
-function wait(ms) { return new Promise(resolve =&gt; setTimeout(resolve, ms)); } async function run() { console.log(&#34;Bắt đầu&#34;); await wait(2000); console.log(&#34;Hoàn thành sau 2 giây&#34;); } run();">
+🔹 Cách hoạt động của Async/Await 🔸 1. Từ khóa async Khi bạn đặt từ khóa async trước một hàm, hàm đó sẽ tự động trả về một Promise. Bất cứ giá trị nào được return trong hàm async sẽ được bọc trong Promise.resolve(). Ví dụ:
+async function sayHello() { return &#34;Xin chào!&#34;; } sayHello().then(console.log); // → Xin chào! 🔸 2. Từ khóa await Chỉ có thể dùng bên trong hàm async.">
   <meta itemprop="datePublished" content="2025-10-20T11:10:00+07:00">
   <meta itemprop="dateModified" content="2025-10-20T11:10:00+07:00">
-  <meta itemprop="wordCount" content="40">
+  <meta itemprop="wordCount" content="336">
   <meta itemprop="keywords" content="JavaScript,Async,Promise">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tìm hiểu Async/Await trong JavaScript">
   <meta name="twitter:description" content="Async/Await giúp viết code bất đồng bộ (asynchronous) dễ đọc như đồng bộ.
-Ví dụ:
-function wait(ms) { return new Promise(resolve =&gt; setTimeout(resolve, ms)); } async function run() { console.log(&#34;Bắt đầu&#34;); await wait(2000); console.log(&#34;Hoàn thành sau 2 giây&#34;); } run();">
+🔹 Cách hoạt động của Async/Await 🔸 1. Từ khóa async Khi bạn đặt từ khóa async trước một hàm, hàm đó sẽ tự động trả về một Promise. Bất cứ giá trị nào được return trong hàm async sẽ được bọc trong Promise.resolve(). Ví dụ:
+async function sayHello() { return &#34;Xin chào!&#34;; } sayHello().then(console.log); // → Xin chào! 🔸 2. Từ khóa await Chỉ có thể dùng bên trong hàm async.">
 
       
     
@@ -166,24 +167,69 @@ function wait(ms) { return new Promise(resolve =&gt; setTimeout(resolve, ms)); }
       
         
         
-        <span class="f6 mv4 dib tracked"> - One minute read </span>
-        <span class="f6 mv4 dib tracked"> - 40 words </span>
+        <span class="f6 mv4 dib tracked"> - 2 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 336 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Async/Await giúp viết code bất đồng bộ (asynchronous) dễ đọc như đồng bộ.</p>
+<h2 id="-cách-hoạt-động-của-asyncawait">🔹 Cách hoạt động của Async/Await</h2>
+<h3 id="-1-từ-khóa-async">🔸 1. Từ khóa <code>async</code></h3>
+<ul>
+<li>Khi bạn đặt từ khóa <code>async</code> trước một hàm, hàm đó sẽ <strong>tự động trả về một Promise</strong>.</li>
+<li>Bất cứ giá trị nào được <code>return</code> trong hàm <code>async</code> sẽ được <strong>bọc trong Promise.resolve()</strong>.</li>
+</ul>
 <p>Ví dụ:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">wait</span>(<span style="color:#a6e22e">ms</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> Promise(<span style="color:#a6e22e">resolve</span> =&gt; <span style="color:#a6e22e">setTimeout</span>(<span style="color:#a6e22e">resolve</span>, <span style="color:#a6e22e">ms</span>));
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">sayHello</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Xin chào!&#34;</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">run</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Bắt đầu&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">wait</span>(<span style="color:#ae81ff">2000</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Hoàn thành sau 2 giây&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">sayHello</span>().<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>); <span style="color:#75715e">// → Xin chào!
+</span></span></span></code></pre></div><h3 id="-2-từ-khóa-await">🔸 2. Từ khóa await</h3>
+<p>Chỉ có thể dùng bên trong hàm async.</p>
+<p>await sẽ tạm dừng việc thực thi cho đến khi Promise được giải quyết (resolve hoặc reject).</p>
+<p>Nó giúp bạn viết code tuần tự, dễ đọc như code đồng bộ.</p>
+<p>Ví dụ:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">javascript</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Copy</span> <span style="color:#a6e22e">code</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getData</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">res</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#34;https://jsonplaceholder.typicode.com/posts/1&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">json</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">data</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">run</span>();
-</span></span></code></pre></div><ul class="pa0">
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">getData</span>();
+</span></span></code></pre></div><p>👉 Trong ví dụ trên, await fetch(&hellip;) sẽ đợi dữ liệu trả về, sau đó mới chạy tiếp await res.json().</p>
+<h2 id="-xử-lý-lỗi-với-trycatch">🔹 Xử lý lỗi với try&hellip;catch</h2>
+<p>Vì await hoạt động như code đồng bộ, bạn có thể dùng try&hellip;catch để xử lý lỗi thay vì .catch() của Promise.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">fetchUser</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">res</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#34;https://api.example.com/user&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">ok</span>) <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Error(<span style="color:#e6db74">&#34;Không thể tải dữ liệu!&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">json</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">user</span>);
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Lỗi:&#34;</span>, <span style="color:#a6e22e">error</span>.<span style="color:#a6e22e">message</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-chạy-song-song-với-promiseall">🔹 Chạy song song với Promise.all()</h2>
+<p>Khi bạn có nhiều Promise độc lập, đừng await từng cái một — hãy dùng Promise.all() để tối ưu.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getMultipleData</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">posts</span>, <span style="color:#a6e22e">users</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> Promise.<span style="color:#a6e22e">all</span>([
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#34;https://jsonplaceholder.typicode.com/posts&#34;</span>).<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">r</span> =&gt; <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">json</span>()),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#34;https://jsonplaceholder.typicode.com/users&#34;</span>).<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">r</span> =&gt; <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">json</span>())
+</span></span><span style="display:flex;"><span>  ]);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">posts</span>.<span style="color:#a6e22e">length</span>, <span style="color:#e6db74">&#34;bài viết&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">users</span>.<span style="color:#a6e22e">length</span>, <span style="color:#e6db74">&#34;người dùng&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-kết-luận">🔹 Kết luận</h2>
+<p>✅ Async/Await giúp:</p>
+<p>Code gọn gàng, dễ hiểu hơn Promise chain.</p>
+<p>Dễ quản lý lỗi hơn bằng try&hellip;catch.</p>
+<p>Dễ đọc như code đồng bộ, nhưng vẫn chạy bất đồng bộ.</p>
+<p>⚠️ Nhớ: await chỉ hoạt động trong hàm async!</p>
+<p>📘 Tóm lại:</p>
+<p>“Async/Await là cách hiện đại để làm việc với bất đồng bộ — giúp code JavaScript sạch, dễ đọc, và ít bug hơn.”</p>
+<ul class="pa0">
   
    <li class="list di">
      <a href="/tags/javascript/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">JavaScript</a>
@@ -208,29 +254,6 @@ function wait(ms) { return new Promise(resolve =&gt; setTimeout(resolve, ms)); }
 
 
 
-
-  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3">Related</p>
-    <ul class="pa0 list">
-	   
-	     <li  class="mb2">
-          <a href="/posts/es6-co-ban/">Những tính năng ES6 quan trọng cần biết</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/posts/dom-manipulation/">Thao tác DOM trong JavaScript</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/posts/kieu-du-lieu-trong-js/">Các kiểu dữ liệu trong JavaScript</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/posts/gioi-thieu-javascript/">Giới thiệu về JavaScript cho người mới bắt đầu</a>
-        </li>
-	    
-    </ul>
-</div>
 
 </aside>
 

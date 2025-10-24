@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Types on Khánh Vũ - Blog</title>
+    <link>http://todu1504.github.io/tags/data-types/</link>
+    <description>Recent content in Data Types on Khánh Vũ - Blog</description>
+    <generator>Hugo</generator>
+    <language>vn-vi</language>
+    <lastBuildDate>Fri, 24 Oct 2025 21:56:00 +0700</lastBuildDate>
+    <atom:link href="http://todu1504.github.io/tags/data-types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Những kiểu dữ liệu trong JavaScript</title>
+      <link>http://todu1504.github.io/posts/kieu-du-lieu-trong-js/</link>
+      <pubDate>Fri, 24 Oct 2025 21:56:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/posts/kieu-du-lieu-trong-js/</guid>
+      <description>&lt;h2 id=&#34;-giới-thiệu&#34;&gt;🧠 Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;strong&gt;kiểu dữ liệu (Data Type)&lt;/strong&gt; là nền tảng giúp bạn hiểu và kiểm soát cách chương trình hoạt động.&lt;br&gt;&#xA;Ngôn ngữ này &lt;strong&gt;phân loại dữ liệu thành 2 nhóm chính&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Primitive (nguyên thủy)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Reference (tham chiếu)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Hiểu rõ sự khác biệt giữa hai loại này giúp tránh nhiều lỗi khó chịu khi lập trình.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-1-kiểu-dữ-liệu-nguyên-thủy-primitive-types&#34;&gt;🔹 1. Kiểu dữ liệu nguyên thủy (Primitive Types)&lt;/h2&gt;&#xA;&lt;p&gt;Kiểu nguyên thủy là &lt;strong&gt;dữ liệu không thể thay đổi trực tiếp (immutable)&lt;/strong&gt;.&lt;br&gt;&#xA;JavaScript có &lt;strong&gt;7 kiểu nguyên thủy&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

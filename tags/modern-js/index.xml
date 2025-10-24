@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modern JS on Khánh Vũ - Blog</title>
+    <link>http://todu1504.github.io/tags/modern-js/</link>
+    <description>Recent content in Modern JS on Khánh Vũ - Blog</description>
+    <generator>Hugo</generator>
+    <language>vn-vi</language>
+    <lastBuildDate>Fri, 24 Oct 2025 22:17:00 +0700</lastBuildDate>
+    <atom:link href="http://todu1504.github.io/tags/modern-js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Các tính năng mới trong ES6</title>
+      <link>http://todu1504.github.io/posts/es6-co-ban/</link>
+      <pubDate>Fri, 24 Oct 2025 22:17:00 +0700</pubDate>
+      <guid>http://todu1504.github.io/posts/es6-co-ban/</guid>
+      <description>&lt;h2 id=&#34;-giới-thiệu&#34;&gt;🚀 Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;ES6 (ECMAScript 2015)&lt;/strong&gt; là bản cập nhật lớn của JavaScript, mang lại nhiều cú pháp mới giúp code &lt;strong&gt;ngắn gọn, dễ đọc, dễ bảo trì hơn&lt;/strong&gt;.&lt;br&gt;&#xA;Dưới đây là &lt;strong&gt;những tính năng quan trọng nhất mà lập trình viên JS hiện đại phải biết&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-1-let-và-const&#34;&gt;🔹 1. &lt;code&gt;let&lt;/code&gt; và &lt;code&gt;const&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Trước đây, ta dùng &lt;code&gt;var&lt;/code&gt; để khai báo biến — nhưng &lt;code&gt;var&lt;/code&gt; có nhiều vấn đề về &lt;strong&gt;scope&lt;/strong&gt;.&lt;br&gt;&#xA;ES6 giới thiệu hai cách khai báo mới: &lt;code&gt;let&lt;/code&gt; và &lt;code&gt;const&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
